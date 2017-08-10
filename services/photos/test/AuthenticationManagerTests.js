@@ -54,7 +54,7 @@ describe('Authentication-Tests', function () {
         });
 
         it('Application configured for external Authentication', function (done) {
-            assert.equal(true, authManager.GetParticipantProfileByOAuth());
+            assert.equal(false, authManager.GetParticipantProfileByOAuth());
             done();
         });
     });
