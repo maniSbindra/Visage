@@ -5,6 +5,6 @@ node_js:
 install: 
   - npm install
 script:
-  - gulp test --FACE_API_KEY $FACE_API_KEY
+  - gulp test  --FACE_API_KEY $FACE_API_KEY
 
 
