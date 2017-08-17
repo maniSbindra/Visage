@@ -1,0 +1,10 @@
+sudo: false
+language: node_js
+node_js:
+  - '7'
+install: 
+  - npm install
+script:
+  - gulp test --FACE_API_KEY $FACE_API_KEY
+
+
