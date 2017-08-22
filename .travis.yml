@@ -1,5 +1,6 @@
 sudo: false
 language: node_js
+before_install: cd services/photos
 node_js:
   - '7'
 install: 
