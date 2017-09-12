@@ -18,6 +18,9 @@ spec:
       containers:
       - name: visage-pod
         image: @@REPOSITORY_NAME@@:@@BUILD_BUILDID@@
+        env:
+        - name: FACE_API_KEY
+          value: @@FACE_API_KEY@@
         ports:
         - containerPort: 8080
 ---
