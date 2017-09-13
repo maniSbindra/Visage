@@ -53,7 +53,7 @@ app.get('/', function (req, res) {
     }
     case util.ActionType.SHOW_BAD_REQUEST_MESSAGE: {
       // If invalid parameters provided, return bad request
-      console.log("Invalid Request.. Either incorrect query string parameters provided in request, or application not configured corctly");
+      console.log("Invalid Request.. Either incorrect query string parameters provided in request, or application not configured corrctly");
       res.status(400).send("HTTP 400 : Bad Request : Please check the Link and try again");
       break;
   }
